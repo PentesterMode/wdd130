@@ -1,6 +1,6 @@
 :root {
     --primary-color: black;
-    --secondary-color: blue;
+    --secondary-color: lightskyblue;
     --heading-font: 'Times New Roman', Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -33,7 +33,7 @@ header {
     padding: 0 1rem 1rem 5rem;
     padding-top: 1rem;
 
-    background-color: lightskyblue;
+    background-color: var(--secondary-color);
 
 }
 
@@ -42,7 +42,8 @@ header img {
 
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
@@ -95,7 +96,7 @@ nav ul li :last-child {
 nav ul li a {
     text-decoration: none;
     text-align: center;
-    color: #000;
+    color: black;
     padding-left: 35px;
     padding-bottom: 0;
 

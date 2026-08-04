@@ -376,6 +376,23 @@ footer .socialmedia img {
         flex-direction: row;
         margin: 10px 20px;
         text-align: center;
+        justify-content: space-between;
+        margin: 10px 15px;
+        flex-wrap: nowrap;
+
+    }
+    footer p{
+        font-size: 0.75rem;
+        white-space: nowrap;
+        margin: 5px;
+
+    }
+    footer.socialmedia{
+        gap:6px;
+        margin:5px
+    }
+    footer.socialmedia img{
+        width:30px;
     }
 
     .contact-info {

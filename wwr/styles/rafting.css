@@ -374,7 +374,6 @@ footer .socialmedia img {
 
     footer {
         flex-direction: row;
-        margin: 10px 10px;
         text-align: center;
         justify-content: space-between;
         margin: 10px 15px;
@@ -388,8 +387,9 @@ footer .socialmedia img {
 
     }
     footer.socialmedia{
-        gap:6px;
+        gap:4px;
         margin:5px
+        
     }
     footer.socialmedia img{
         width:5px;

@@ -377,4 +377,9 @@ footer .socialmedia img {
     .map iframe {
         width: 100%;
     }
+
+    .employeeimg {
+        max-width: 100%;
+        height: auto;
+    }
 }

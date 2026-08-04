@@ -346,14 +346,14 @@ footer .socialmedia img {
 
 @media(max-width:768px) {
     nav ul {
-        flex-direction: column;
         width: 100%;
+        flex-direction: row;
     }
 
     nav ul li {
         width: 100%;
         border-left: none;
-        border-bottom: 0.5 solid black;
+        border-bottom: 0.5px solid black;
     }
 
     .employee-structure {
@@ -381,5 +381,6 @@ footer .socialmedia img {
     .employeeimg {
         max-width: 100%;
         height: auto;
+        flex-direction: row;
     }
 }

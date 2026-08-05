@@ -354,7 +354,8 @@ footer .socialmedia img {
     header{ 
         margin: 10px,50px;
         width: 100%;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        gap:10px;
     }
 
     nav ul {

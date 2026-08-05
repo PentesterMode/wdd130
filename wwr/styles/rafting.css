@@ -353,7 +353,7 @@ footer .socialmedia img {
     }
     header{ 
         margin: 10px,10px;
-        width: 100%;
+        width: 10px 10px;
         flex-wrap: nowrap;
     }
 
@@ -373,8 +373,8 @@ footer .socialmedia img {
     .employee-structure {
         gap: 5px;
         flex-direction: row;
-        flex-wrap: nowrap;
-    }
+        margin: 1Opx 10px;
+        
 
     footer {
         flex-direction: row;
@@ -402,7 +402,7 @@ footer .socialmedia img {
     }
 
     .contact-info {
-        margin: 0 20px;
+        margin: 10px 10px
         flex-wrap: wrap;
     }
 
@@ -416,7 +416,6 @@ footer .socialmedia img {
 
     .employeeimg {
         width:10px;
-
         height: 10px;
         flex-direction: row;
     }

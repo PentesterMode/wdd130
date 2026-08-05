@@ -372,7 +372,6 @@ footer .socialmedia img {
 
     .employee-structure {
         gap: 5px;
-        flex-direction: row;
         margin: 1Opx 10px;
     }
         
@@ -419,5 +418,6 @@ footer .socialmedia img {
         width:4px;
         height: 4px;
         flex-direction: row;
+        display: flex;
     }
 }

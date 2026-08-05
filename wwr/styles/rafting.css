@@ -415,8 +415,9 @@ footer .socialmedia img {
     }
 
     .employeeimg {
-        max-width: 100%;
-        height: auto;
+        width:10px;
+
+        height: 10px;
         flex-direction: row;
     }
 }

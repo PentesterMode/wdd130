@@ -362,7 +362,6 @@ footer .socialmedia img {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-
     }
 
     nav ul li {
@@ -373,6 +372,8 @@ footer .socialmedia img {
     .employee-structure {
         gap: 5px;
         margin: 1Opx 10px;
+        display: flex;
+        flex-direction: row;
     }
         
 

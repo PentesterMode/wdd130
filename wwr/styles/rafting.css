@@ -38,6 +38,7 @@ header {
 
 header img {
     background-color: aliceblue;
+    max-width :100%;
 
 }
 
@@ -72,8 +73,7 @@ nav ul {
     list-style: none;
     border: 0.5px solid black;
     text-decoration: none;
-    width: 100%;
-    max-width: 700px;
+    max-width: 100%;
 }
 
 nav ul li {
@@ -345,10 +345,10 @@ footer .socialmedia img {
     font-weight: normal;
 }
 
-@media(max-width:100px) {
+@media(max-width:780px) {
     nav {
         justify-content: center;
-        margin: 0;
+        margin:10px 10px;
         width: 100%;
     }
     header{ 
@@ -366,7 +366,7 @@ footer .socialmedia img {
 
     nav ul li {
         padding: 0.5rem;
-        flex: 1 1 auto
+        flex: 1;
     }
 
     .employee-structure {

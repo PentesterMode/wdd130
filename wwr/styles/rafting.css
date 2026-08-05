@@ -351,6 +351,11 @@ footer .socialmedia img {
         margin: 0;
         width: 100%;
     }
+    header{ 
+        margin: 10px,10px;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 
     nav ul {
         width: 100%;
@@ -368,6 +373,7 @@ footer .socialmedia img {
     .employee-structure {
         gap: 5px;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     footer {

@@ -1,4 +1,4 @@
-8:root {
+:root {
     --primary-color: black;
     --secondary-color: lightskyblue;
     --heading-font: 'Times New Roman', Times, serif;
@@ -359,7 +359,7 @@ footer .socialmedia img {
 
     nav ul {
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
     }

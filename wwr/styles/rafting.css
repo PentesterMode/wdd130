@@ -345,7 +345,7 @@ footer .socialmedia img {
     font-weight: normal;
 }
 
-@media(max-width:480px) {
+@media(max-width:100px) {
     nav {
         justify-content: unset;
         margin: 0;

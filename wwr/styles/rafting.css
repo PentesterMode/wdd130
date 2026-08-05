@@ -38,6 +38,8 @@ header {
 
 header img {
     background-color: aliceblue;
+    width: 250px;
+    height: 250px;
 
 }
 
@@ -326,16 +328,14 @@ footer .socialmedia img {
 .formrow label :first-child,
 .formrow p:first-child {
     font-weight: normal;
-    max-width: 100px;
+    max-width: 100%;
     padding: 4px;
-
 }
 
 .radios {
     display: flex;
     flex-direction: column;
     gap: 4px;
-
 }
 
 .radios label {
@@ -344,83 +344,3 @@ footer .socialmedia img {
     gap: 8px;
     font-weight: normal;
 }
-
-@media(max-width:100px) {
-    nav {
-        justify-content: unset;
-        margin: 0;
-        width: 100%;
-    }
-    header{ 
-        margin: 10px,10px;
-        width: 10px 10px;
-        flex-wrap: nowrap;
-    }
-
-    nav ul {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav ul li {
-        padding: 0.5rem;
-        flex: 1 1 auto
-    }
-
-    .employee-structure {
-        gap: 5px;
-        margin: 1Opx 10px;
-        display: flex;
-        flex-direction: row;
-    }
-        
-
-    footer {
-        flex-direction: row;
-        text-align: center;
-        justify-content: space-between;
-        margin: 10px 10px;
-        flex-wrap: nowrap;
-
-    }
-
-    footer p {
-        font-size: 0.75rem;
-        white-space: nowrap;
-        margin: 5px;
-
-    }
-
-    footer.socialmedia {
-        gap: 4px;
-        margin: 5px
-    }
-
-    footer.socialmedia img {
-        width: 5px;
-    }
-
-    .contact-info {
-        margin: 10px 10px;
-        flex-wrap: wrap;
-
-    }
-
-    .history-info {
-        grid-template-columns: 1fr;
-    }
-
-    .map iframe {
-        width: 100%;
-    }
-
-    .employeeimg {
-        width:4px;
-        height: 4px;
-        grid-template-rows: 1fr;
-    
-    }
-}
-

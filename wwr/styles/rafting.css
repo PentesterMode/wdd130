@@ -352,7 +352,7 @@ footer .socialmedia img {
         width: 100%;
     }
     header{ 
-        margin: 10px,10px;
+        margin: 10px,50px;
         width: 100%;
         flex-wrap: wrap;
     }
@@ -374,6 +374,7 @@ footer .socialmedia img {
         margin: 1Opx 10px;
         display: flex;
         flex-direction: row;
+        items-align:center
     }
         
 
@@ -417,8 +418,8 @@ footer .socialmedia img {
     }
 
     .employeeimg {
-        width:4px;
-        height: 4px;
+        width:100%;
+        height:auto;
         grid-template-rows: 1fr;
     
     }

@@ -347,7 +347,7 @@ footer .socialmedia img {
 
 @media(max-width:780px) {
     nav {
-        justify-content: center;
+        justify-content: unset;
         margin:10px 10px;
         width: 100%;
     }

@@ -405,6 +405,7 @@ footer .socialmedia img {
     .contact-info {
         margin: 10px 10px;
         flex-wrap: wrap;
+
     }
 
     .history-info {
@@ -418,7 +419,8 @@ footer .socialmedia img {
     .employeeimg {
         width:4px;
         height: 4px;
-        flex-direction: row;
-        display: flex;
+        grid-template-rows: 1fr;
+    
     }
 }
+

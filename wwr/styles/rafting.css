@@ -274,7 +274,7 @@ footer .socialmedia img {
 }
 
 .form-group {
-    display: var(--display)
+    display: var(--display);
     flex-direction: column;
     gap: 5px;
 }

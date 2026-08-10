@@ -447,7 +447,7 @@ footer .socialmedia img {
     justify-content:center;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: normal;
+    font-size: medium;
     border:1px solid black;
     text-decoration: none;
     margin: 10px 50px;
@@ -466,8 +466,7 @@ footer .socialmedia img {
     gap: 2rem;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 1.rem;
-
+    margin-top: 1rem;
 }
 .trip{
     flex:1;
